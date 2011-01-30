@@ -1,6 +1,5 @@
 import os
 import xml.etree.cElementTree as ElementTree
-import pyItunes as itunes
 NEEDED_KEYS= set(("title", "genre", "artist", "album", "track-number", "location", "duration", "file-size", ))
 
 class RBLibraryParser:
